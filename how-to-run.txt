@@ -11,3 +11,4 @@ To simulate client's requests:
     Note: if you do not have curl, u can try in javascript/postman/... there are many ways
 5.  do not touch mouse/keyboard during this time, watch as the script simulates a person's behaviour in the website
 6. the generated image's url is printed in the cmd  (this can be returned to the client)
+7. output video : https://drive.google.com/drive/folders/15BU8zn4DbNVULThnGAXrotsqh9y_c7Ny?usp=drive_link
