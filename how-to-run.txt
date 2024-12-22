@@ -1,0 +1,13 @@
+1. pip install -r requirements.txt
+2. python -u simulate-clicks-api.py
+    this should start the server and open a chrome window in the left half screen.
+
+To simulate client's requests:
+3. open cmd and make sure that the chrome window is in left half without any window above it (only needed for the first time, no need to disturb this for subsequent queries).
+    You can handle this by clicking windows+LeftArrow for chrome and windows+RightArrow for cmd.
+4. enter this command in a new cmd window:
+     curl -X POST http://127.0.0.1:5000/generate -H "Content-Type: application/json" -d "{\"prompt\": \"whatever_prompt\"}"
+
+    Note: if you do not have curl, u can try in javascript/postman/... there are many ways
+5.  do not touch mouse/keyboard during this time, watch as the script simulates a person's behaviour in the website
+6. the generated image's url is printed in the cmd  (this can be returned to the client)
