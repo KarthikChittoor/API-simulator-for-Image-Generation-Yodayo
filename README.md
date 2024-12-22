@@ -1,4 +1,4 @@
-# Project Name
+# API Simulator - Use third party APIs as your own - Image Generation API is chosen as a sample
 
 ## Overview
 
