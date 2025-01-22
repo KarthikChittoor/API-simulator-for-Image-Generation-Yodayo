@@ -6,6 +6,9 @@ This project demonstrates how to use third-party APIs as our own by automating b
 
 The example here uses **Yodayo**, a real image generation service, to simulate API calls for generating images based on user-provided prompts. While this method is slow, it serves as a proof of concept and opens the path to more possibilities for AI-controlled machines. Future work will involve building an AI system (via a large language model) that autonomously controls a computer, effectively mimicking human actions.
 
+## Output
+**https://drive.google.com/file/d/15FGBYJuyCrTKFjzSeAt_QlAejGa2f5Ym/view?usp=drive_link**
+
 ### Key Features:
 - Automates the process of navigating a website, inputting a prompt, and generating an image.
 - Uses browser automation tools like **PyAutoGUI** to simulate keyboard and mouse actions.
